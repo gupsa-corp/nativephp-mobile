@@ -1,0 +1,71 @@
+{
+    "name": "Gupsa Mobile",
+    "short_name": "Gupsa",
+    "description": "PHP로 만든 네이티브 안드로이드 앱",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#667eea",
+    "background_color": "#ffffff",
+    "categories": ["productivity", "business"],
+    "lang": "ko",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "images/icon-48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "기능 보기",
+            "short_name": "기능",
+            "description": "앱의 주요 기능들을 확인하세요",
+            "url": "/features",
+            "icons": [
+                {
+                    "src": "images/icon-96.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "설정",
+            "short_name": "설정",
+            "description": "앱 설정을 변경하세요",
+            "url": "/settings",
+            "icons": [
+                {
+                    "src": "images/icon-96.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ]
+}
