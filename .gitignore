@@ -41,8 +41,3 @@ Thumbs.db
 /build/
 *.apk
 *.ipa
-
-
-/.bun/
-/.cache/
-/.anydesk
